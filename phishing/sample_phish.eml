@@ -1,0 +1,36 @@
+Return-Path: <bounce-77812@mailer.secure-notify.top>
+Received: from mx.example-corp.com (mx.example-corp.com [192.168.56.5])
+	by mail.example-corp.com with ESMTP id 8F2A1; Tue, 21 Oct 2025 09:14:03 -0400
+Received: from secure-notify.top (unknown [203.0.113.99])
+	by mx.example-corp.com with SMTP id 44C1D; Tue, 21 Oct 2025 09:14:01 -0400
+Authentication-Results: mx.example-corp.com;
+	spf=softfail smtp.mailfrom=mailer.secure-notify.top;
+	dkim=none;
+	dmarc=fail header.from=paypa1-support.com
+From: "PayPal Support" <service@paypa1-support.com>
+Reply-To: <recovery-desk@protonmail.com>
+To: <kamron@example-corp.com>
+Subject: URGENT: Your account has been suspended - verify immediately
+Date: Tue, 21 Oct 2025 09:13:58 -0400
+Message-ID: <a81c2e@secure-notify.top>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We noticed unusual activity. Your account will be closed in 24 hours unless you
+<a href="http://paypa1-support.com.login-verify.top/session?id=88213">verify your identity here</a>.</p>
+<p>Reference: 5f4dcc3b5aa765d61d8327deb882cf99</p>
+</body></html>
+
+--BOUNDARY
+Content-Type: application/octet-stream; name="Account_Statement.html"
+Content-Disposition: attachment; filename="Account_Statement.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+VGhpcyBpcyBhIGhhcm1sZXNzIHNhbXBsZSBhdHRhY2htZW50LjwvYm9keT48L2h0bWw+
+
+--BOUNDARY--
